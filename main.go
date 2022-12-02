@@ -5,6 +5,7 @@ import (
 	"os"
 
 	"github.com/alenius/aoc22/day1"
+	"github.com/alenius/aoc22/day2"
 )
 
 func main() {
@@ -17,6 +18,8 @@ func main() {
 	switch day {
 	case "1":
 		day1.Day1()
+	case "2":
+		day2.Day2()
 	default:
 		fmt.Println("day not implemented yet")
 	}
